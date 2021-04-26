@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulk Pick Helper</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div id="container">
+        <h1>Bulk Pick Helper</h1>
+        <h4>Fill out bulk pick and hose lengths fields then click 
+        <em>Calculate Combinations</em> button to get results.</h4>
+        <p>Enter bulk pick amount:</p>
+        <input id="bulk-pick-amount" class="text-field" type="number" required>
+
+        <p>Enter hose lengths available:</p>
+        <textarea id="hose-lengths" class="text-field" type="text" cols="50" rows="4" placeholder="type lengths with a space in between i.e 10 20 15"required></textarea>
+        <div id="buttons-container">
+            <button id="calc-button" class="button">Calculate Combinations</button>
+            <button id="reset-button" class="button">Reset Results</button>
+        </div>
+            <div id="perfect-output" class="output">output placeholder</div>
+            <div id="almost-output" class="output">output placeholder</div>
+            <div id="close-output" class="output">output placeholder</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
